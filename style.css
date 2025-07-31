@@ -1,0 +1,75 @@
+body {
+      background-color: lightyellow;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      text-align: center;
+      font-size: 60px;
+      color: red;
+      font-family: Algerian, serif;
+      margin-top: 20px;
+    }
+
+    hr {
+      width: 1000px;
+      height: 2px;
+      background-color: blue;
+      border: none;
+    }
+
+    .marquee {
+      font-size: 24px;
+      color: red;
+      behavior:alternate;
+      direction:right;
+
+    }
+
+    .nav {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+      color: darkblue;
+      font-weight: bold;
+    }
+
+    .form-container {
+      text-align: center;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="password"] {
+      width: 250px;
+      padding: 8px;
+      margin: 8px;
+      border-radius: 5px;
+      border: 1px solid #999;
+    }
+
+    .form-container input[type="checkbox"] {
+      margin-top: 20px;
+    }
+
+    .form-container input[type="button"] {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .form-container input[type="button"]:hover {
+      background-color: green;
+      color:white
+    }
+
